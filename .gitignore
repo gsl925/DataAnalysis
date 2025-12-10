@@ -1,0 +1,72 @@
+#############################
+# OS 系統檔案
+#############################
+.DS_Store
+Thumbs.db
+
+#############################
+# VS Code 設定（保留中性）
+#############################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#############################
+# Node / 前端
+#############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+
+#############################
+# Python
+#############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+
+#############################
+# C / C++ / 編譯輸出
+#############################
+*.obj
+*.o
+*.exe
+*.out
+*.dll
+*.so
+*.class
+*.log
+
+#############################
+# 雜項 & 工具
+#############################
+logs/
+*.log
+*.tmp
+*.bak
+output/
+
+#############################
+# 個人設定 / 機密資料
+#############################
+*.local
+*.secret
+*.key
+*.pem
+config.local.json
+secret.txt
+Weekly Report_JimChuang.pptx
